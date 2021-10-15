@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* header */
+.header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+}
+.container{
+    width:95%;
+    
+    display: flex;
+}
+.logo{
+    height: 40px;
+    width: 15%;
+    font-size: 30px;
+    font-family: Segoe UI;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    line-height: 85px;
+
+}
+.nav{
+    height: 90px;
+    width: 35%;
+    display: flex;
+}
+.header_container{
+    justify-content: space-between;
+}.nav-item{
+    width: 20%;
+    height: 90px;
+    text-decoration: none;
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 90px;
+    cursor: pointer;
+    color: white;
+}
+.nav-item:hover{
+    background-color: white;
+    color:rgba(16,128,224,1) ;
+}
+
+
+.banner{
+    height: 95vh;
+    width:100% ;
+    background-size: cover;
+    background-image: url('child.jpg');
+}
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.banner-text{
+    height:350px;
+    width:50%;
+    background-color:rgba(16,128,224,0.7);
+    font-family: Segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.padd{
+    padding: 20px;
+}
+.banner-title{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.banner_dec{
+    margin-bottom: 30px;
+    line-height: 25px;
+    
+}
+.banner_btn{
+    padding-left:60px ;
+    padding-right:60px ;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner_btn:hover{
+    background-color: white;
+    color:rgba(16,128,224,1) ;
+
+}
+
+
+
+
+
+/* css for footer  */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_child_1{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first{
+    font-size: 22px;
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_container{
+    width: 60%;
+    justify-content: space-between;
+}   
+
+.social_icon{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+
+.si1{
+    background-image: url('facebook.png');
+}
+
+.si2{
+    background-image: url('google.png');
+}
+
+.si3{
+    background-image: url('linkedin.png');
+}
+
+.si4{
+    background-image: url('gmail.png');
+}
